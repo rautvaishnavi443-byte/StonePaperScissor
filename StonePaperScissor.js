@@ -1,5 +1,5 @@
 var b = true;
-export function changeMode() {
+function changeMode() {
 
     if (b == true) {
         document.getElementById("emoji").innerHTML = "🌛"
